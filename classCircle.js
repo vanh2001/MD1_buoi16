@@ -3,6 +3,9 @@ class newCircle{
         this.radius = radius;
         this.color = color;
     }
+    getColor() {
+        return this.color;
+    }
     getRadius() {
         return this.radius;
     }
@@ -14,4 +17,4 @@ class newCircle{
 let circle = new newCircle(4, "red");
 let radius = circle.getRadius();
 let area = circle.getArea();
-alert("Radius: " + radius + " ; area: " + area );
+alert("Radius: " + radius + " ; area: " + area + " ; color: " + circle.getColor());
