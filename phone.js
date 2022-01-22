@@ -29,5 +29,5 @@ class Phone {
     }
 }
 
-let vanh = new Phone("", [],[]);
-let thanh = new Phone("", [], []);
+let anh = new Phone("", [],[]);
+let yen = new Phone("", [], []);
